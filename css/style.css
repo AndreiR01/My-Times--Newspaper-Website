@@ -5,7 +5,7 @@ header {
   z-index: 1;
   width: 100%;
   height: 80px;
-  border-bottom: 1px solid black;
+
   background-color: white;
   font-family: Verdana;
   font-size: 14px;
@@ -35,26 +35,29 @@ a {
 }
 div {
   display: block;
-  border: 1px solid black;
-}
 
-.content {
-  display: flex;
-  width: 1232px;
-  margin: 0 auto 78px auto;
-  padding-top: 116px;
-  z-index:2;
 }
+.content {
+    display: flex;
+    width: 1232px;
+    margin: 0 auto 78px auto;
+    padding-top: 116px;
+  }
 .column {
   display: flex;
-  flex-direction: column;
   margin-right: 32px;
+  flex-direction: column;
 }
 p.narrative{
   margin: 16px 0px;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 .column.large {
   width: 630px;
+
+
 }
 
 .column.medium {
@@ -63,4 +66,29 @@ p.narrative{
 
 .column.small {
   width: 240px;
+}
+.image-content {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.tuna-story {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-size:40px;
+}
+.pop-culture {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+}
+.cat-ceo {
+  background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+.fall-cancelled {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+
+  }
+.stories {
+  display:flex;
+  justify-content: space-around;
+  margin-top: 17px;
 }
